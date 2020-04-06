@@ -1,0 +1,14 @@
+{
+  "name": "write_me",
+  "version": "1.0.0",
+  "description": "Website about IA transcription of audio files",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./scss/main.scss:./css/style.css"
+  },
+  "author": "Jules Prévost",
+  "license": "Jules Prévost",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
