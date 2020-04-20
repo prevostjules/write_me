@@ -1,3 +1,122 @@
-@import "./normalize.css";
+/*Define colors*/
+/*Define heights*/
+body footer {
+  display: flex;
+}
+
+body nav {
+  display: flex;
+}
+
+nav {
+  background-color: #A1CCA5;
+  z-index: 1000;
+}
+
+main {
+  background-color: #C7CCB9;
+}
+
+form {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+footer {
+  background-color: #A1CCA5;
+}
+
+.center {
+  text-align: center;
+}
+
+body .btn-dark {
+  color: white;
+}
+
+body .btn-dark:hover {
+  background-color: #111D13;
+  color: white;
+}
+
+nav {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+}
+
+.sign-in a {
+  transition: all 0.3s ease 0s;
+  color: #415D43;
+  background-color: 709775;
+  vertical-align: middle;
+}
+
+.sign-in a:hover {
+  color: #111D13;
+  text-decoration: none;
+}
+
+.sign-in .btn-dark {
+  color: white;
+}
+
+.sign-in .btn-dark:hover {
+  background-color: #111D13;
+  color: white;
+}
+
+#sign-in-id {
+  padding-right: 1rem;
+}
+
+.banner {
+  padding-top: 60px;
+  background-color: #7E7B72;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  text-align: justify;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 0px 50px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+
+.footer-links a {
+  color: #415D43;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+
+.footer-links a:hover {
+  opacity: 1;
+  color: #111D13;
+}
+
+footer .fa-heart {
+  color: #D23333;
+}
 
 /*# sourceMappingURL=style.css.map */

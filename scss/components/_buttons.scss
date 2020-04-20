@@ -1,0 +1,8 @@
+body .btn-dark {
+	color: $btn-color;
+}
+
+body .btn-dark:hover {
+	background-color: $link-nav-hover;
+	color: $btn-color;
+}

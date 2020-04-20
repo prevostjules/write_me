@@ -11,17 +11,20 @@
 <body>
 	
 	<header>
-
-		<nav>
-			<i class="fas fa-brain logo"></i>
-			<a href="#">Sign In</a>
-			<a class="btn btn-dark" href="#" role="button">TEST FOR FREE</a>
+    
+		<nav class="sign-in">
+      <a href="#"><i class="fas fa-brain logo"></i></a>
+      <div>
+				<a id="sign-in-id" href="#">Sign In</a>
+      	<a class="btn btn-dark" href="#" role="button">TEST FOR FREE</a>
+      </div>
 		</nav>
 
-		<h1>WRITE ME</h1>
-	  <h2>The best audio to text app !</h2>
-	  <a class="btn btn-dark" href="#" role="button">TEST OUR AI POWER</a>
-
+		<div class="banner">
+			<h1>WRITE ME</h1>
+	  	<h2>The best audio to text app !</h2>
+	  	<a class="btn btn-dark" href="#" role="button">TEST OUR AI POWER</a>
+	  </div>
 	</header>
 
 	<main>
@@ -30,16 +33,16 @@
 			
 			<div class="row">
         <div class="col-xs-12 col-sm-4">
-        	<i class="fas fa-brain"></i>
-        	<p>Our ultra-developped AI will do all the work for you.</p>
+        	<div class="center"><i class="fas fa-brain"></i></div>
+        	<p>Our ultra-developped AI will do all the work for you. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
         <div class="col-xs-12 col-sm-4">
-        	<i class="fas fa-brain"></i>
-        	<p>Our ultra-developped AI will do all the work for you.</p>
+        	<div class="center"><i class="fas fa-brain"></i></div>
+        	<p>Our ultra-developped AI will do all the work for you. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
         <div class="col-xs-12 col-sm-4">
-        	<i class="fas fa-brain"></i>
-        	<p>Our ultra-developped AI will do all the work for you.</p>
+        	<div class="center"><i class="fas fa-brain"></i></div>
+        	<p>Our ultra-developped AI will do all the work for you. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
       </div>
 
@@ -48,18 +51,18 @@
 		<form action="submission.html" method="GET">
 			<h1>Tell us who you are :</h1>
       <section class="name">
-        <label for="firstName">Enter your first name</label>
+        <label for="firstName">Enter your first name: </label>
         <input type="text" name="fname" id="firstName" minlength="3" maxlength="15" pattern="[a-zA-Z0-9]+" required>
       </section>
 
       <section class="name">
-        <label for="familyName">Enter your family name</label>
+        <label for="familyName">Enter your family name: </label>
         <input type="text" name="fname" id="familyName" minlength="3" maxlength="15" pattern="[a-zA-Z0-9]+" required>
       </section>
 
       <section class="name">
-        <label for="email">Enter email adress</label>
-        <input type="text" name="fname" id="email" minlength="3" maxlength="15" pattern="[a-zA-Z0-9]+" required>
+        <label for="email">Enter email adress: </label>
+        <input type="text" name="fname" id="email" minlength="3" maxlength="15" pattern="[a-zA-Z0-9]+" required><br>
         <input type="submit" value="Submit">
       </section>
 
@@ -67,30 +70,20 @@
 
 
 	<footer>
-		
-		<p>©Jules Prévost - 2020</p>
-		<ul class="list-inline">
-    	<li>
-    	  <a href="">
-    	    <i class="fab fa-facebook"></i>
-    	  </a>
-    	</li>
-    	<li>
-    	  <a href="">
-    	    <i class="fab fa-twitter"></i>
-    	  </a>
-    	</li>
-    	<li>
-    	  <a href="">
-    	    <i class="fab fa-youtube"></i>
-    	  </a>
-   	</li>
-    	<li>
-    	  <a href="">
-    	    <i class="fab fa-github"></i>
-    	  </a>
-    	</li>
-      </ul>
+
+  <div class="footer-links">
+    <a href="#"><i class="fab fa-github"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+  </div>
+
+  <div class="footer-copyright">
+    ©Jules Prévost 2020
+  </div>
+
+</div>
 
 	</footer>
 

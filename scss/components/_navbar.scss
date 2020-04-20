@@ -1,0 +1,34 @@
+nav {
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5rem;
+	position: fixed;
+	height: $nav-height;
+	width: 100%;
+}
+
+.sign-in a {
+	transition: all 0.3s ease 0s;
+	color: $link-nav;
+	background-color: 709775;
+	vertical-align: middle;
+}
+
+.sign-in a:hover {
+	color: $link-nav-hover;
+	text-decoration: none;
+}
+
+.sign-in .btn-dark {
+	color: $btn-color;
+}
+
+.sign-in .btn-dark:hover {
+	background-color: $link-nav-hover;
+	color: $btn-color;
+}
+
+#sign-in-id {
+	padding-right: 1rem;
+}
+
