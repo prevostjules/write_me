@@ -9,23 +9,22 @@ nav {
 
 .sign-in a {
 	transition: all 0.3s ease 0s;
-	color: $link-nav;
+	color: $link-color;
 	background-color: 709775;
 	vertical-align: middle;
 }
 
 .sign-in a:hover {
-	color: $link-nav-hover;
+	color: $link-color-hover;
 	text-decoration: none;
 }
 
 .sign-in .btn-dark {
-	color: $btn-color;
+	color: $btn-text-color;
 }
 
 .sign-in .btn-dark:hover {
-	background-color: $link-nav-hover;
-	color: $btn-color;
+	color: $btn-text-color;
 }
 
 #sign-in-id {

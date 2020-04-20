@@ -32,10 +32,13 @@ footer {
 
 body .btn-dark {
   color: white;
+  background-color: #415D43;
+  border-color: #415D43;
 }
 
 body .btn-dark:hover {
   background-color: #111D13;
+  border-color: #111D13;
   color: white;
 }
 
@@ -65,7 +68,6 @@ nav {
 }
 
 .sign-in .btn-dark:hover {
-  background-color: #111D13;
   color: white;
 }
 

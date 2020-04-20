@@ -1,8 +1,11 @@
 body .btn-dark {
-	color: $btn-color;
+	color: $btn-text-color;
+	background-color: $link-color;
+	border-color: $link-color;
 }
 
 body .btn-dark:hover {
-	background-color: $link-nav-hover;
-	color: $btn-color;
+	background-color: $link-color-hover;
+	border-color: $link-color-hover;
+	color: $btn-text-color;
 }
