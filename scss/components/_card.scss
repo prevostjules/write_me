@@ -6,14 +6,16 @@
 			text-align: justify;
 			font-size: 1.2rem;
 		}
+
+		&__logo {
+			font-size: 4rem;
+			padding-bottom: 2rem;
+		}
+
+		&--red {
+			color: red;
+		}
 }
 
-.prod-attr--red{
-	color: red;
-}
 
-.prod-attr__logo {
-	font-size: 4rem;
-	padding-bottom: 2rem;
-}
 

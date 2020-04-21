@@ -1,8 +1,18 @@
 .btn {
 	color: $btn-text-color;
 	background-color: $link-color;
-  padding: 8px 24px;
+  padding: 0.4rem 1.8rem;
   border-radius: 50px;
+
+  	&--red {
+  		background-color: red;
+  	}
+
+  	&--big {
+  		 padding: 1rem 4rem;
+  		 font-size: 1.2rem;
+  		 max-width: 80%;
+  	}
 
   	&:hover {
 			background-color: $link-color-hover;

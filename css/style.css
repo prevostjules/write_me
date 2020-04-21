@@ -64,14 +64,12 @@ nav a {
   text-align: justify;
   font-size: 1.2rem;
 }
-
-.prod-attr--red {
-  color: red;
-}
-
 .prod-attr__logo {
   font-size: 4rem;
   padding-bottom: 2rem;
+}
+.prod-attr--red {
+  color: red;
 }
 
 form {
@@ -115,8 +113,16 @@ footer {
 .btn {
   color: white;
   background-color: #415D43;
-  padding: 8px 24px;
+  padding: 0.4rem 1.8rem;
   border-radius: 50px;
+}
+.btn--red {
+  background-color: red;
+}
+.btn--big {
+  padding: 1rem 4rem;
+  font-size: 1.2rem;
+  max-width: 80%;
 }
 .btn:hover {
   background-color: #111D13;
