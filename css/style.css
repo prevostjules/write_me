@@ -5,6 +5,16 @@ main {
   background-color: #C7CCB9;
 }
 
+a {
+  transition: all 0.3s ease 0s;
+  color: #415D43;
+  background-color: 709775;
+}
+a:hover {
+  color: #111D13;
+  text-decoration: none;
+}
+
 nav {
   justify-content: space-between;
   align-items: center;
@@ -16,17 +26,8 @@ nav {
   z-index: 1000;
   display: flex;
 }
-
 nav a {
-  transition: all 0.3s ease 0s;
-  color: #415D43;
-  background-color: 709775;
   vertical-align: middle;
-}
-
-nav a:hover {
-  color: #111D13;
-  text-decoration: none;
 }
 
 .nav__logo {
@@ -46,12 +47,10 @@ nav a:hover {
   flex-direction: column;
   justify-content: center;
 }
-
 .banner h1 {
   font-size: 2rem;
   text-transform: uppercase;
 }
-
 .banner h2 {
   font-size: 1.5rem;
   padding-bottom: 0.6rem;
@@ -61,14 +60,13 @@ nav a:hover {
   padding: 2rem 1.3rem;
   text-align: center;
 }
-
-.prod-attr--red {
-  color: red;
-}
-
 .prod-attr p {
   text-align: justify;
   font-size: 1.2rem;
+}
+
+.prod-attr--red {
+  color: red;
 }
 
 .prod-attr__logo {
@@ -82,7 +80,6 @@ form {
   margin: auto;
   text-align: center;
 }
-
 form h1 {
   font-size: 2rem;
   padding-bottom: 2rem;
@@ -92,7 +89,6 @@ form h1 {
   font-size: 1.2rem;
   padding-bottom: 1rem;
 }
-
 .form__info .btn {
   margin-top: 1rem;
 }
@@ -102,31 +98,18 @@ footer {
   align-items: center;
   justify-content: space-between;
   height: 60px;
-  padding: 0px 50px;
+  padding: 0rem 1rem;
   color: rgba(0, 0, 0, 0.3);
-  display: flex;
   background-color: #A1CCA5;
 }
 
 .footer__links {
   display: flex;
   align-items: center;
+  font-size: 1.2rem;
 }
-
 .footer__links a {
-  color: #415D43;
-  text-decoration: none;
-  font-size: 24px;
-  padding: 0px 10px;
-}
-
-.footer__links a:hover {
-  opacity: 1;
-  color: #111D13;
-}
-
-footer .fa-heart {
-  color: #D23333;
+  padding-right: 0.5rem;
 }
 
 .btn {
@@ -135,7 +118,6 @@ footer .fa-heart {
   padding: 8px 24px;
   border-radius: 50px;
 }
-
 .btn:hover {
   background-color: #111D13;
   border-color: #111D13;

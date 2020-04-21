@@ -1,12 +1,12 @@
 .btn {
 	color: $btn-text-color;
 	background-color: $link-color;
-  	padding: 8px 24px;
-  	border-radius: 50px;
-}
+  padding: 8px 24px;
+  border-radius: 50px;
 
-.btn:hover {
-	background-color: $link-color-hover;
-	border-color: $link-color-hover;
-	color: $btn-text-color;
+  	&:hover {
+			background-color: $link-color-hover;
+			border-color: $link-color-hover;
+			color: $btn-text-color;
+  	}
 }

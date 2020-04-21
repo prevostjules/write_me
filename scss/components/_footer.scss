@@ -3,25 +3,17 @@ footer {
   align-items: center;
   justify-content: space-between;
   height: $nav-height;
-  padding: 0px 50px;
+  padding: 0rem 1rem;
   color: rgba(0,0,0,0.3);
-  display: flex;
   background-color: $background-color-navbar;
 }
+
 .footer__links {
   display: flex;
   align-items: center;
+  font-size: 1.2rem;
+    a {
+      padding-right: 0.5rem;
+    }
 }
-.footer__links a {
-  color: $link-color;
-  text-decoration: none;
-  font-size: 24px;
-  padding: 0px 10px;
-}
-.footer__links a:hover {
-  opacity: 1;
-  color: $link-color-hover;
-}
-footer .fa-heart {
-  color: #D23333;
-}
+
