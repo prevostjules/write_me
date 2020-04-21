@@ -108,19 +108,19 @@ footer {
   background-color: #A1CCA5;
 }
 
-.footer-links {
+.footer__links {
   display: flex;
   align-items: center;
 }
 
-.footer-links a {
+.footer__links a {
   color: #415D43;
   text-decoration: none;
   font-size: 24px;
   padding: 0px 10px;
 }
 
-.footer-links a:hover {
+.footer__links a:hover {
   opacity: 1;
   color: #111D13;
 }
