@@ -20,7 +20,7 @@ nav {
   align-items: center;
   padding: 1rem;
   position: fixed;
-  height: 60px;
+  height: 3.8rem;
   width: 100%;
   background-color: #A1CCA5;
   z-index: 1000;
@@ -39,7 +39,7 @@ nav a {
 }
 
 .banner {
-  padding-top: 60px;
+  padding-top: 3.8rem;
   background-color: #7E7B72;
   height: 100vh;
   display: flex;
@@ -95,7 +95,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 60px;
+  height: 3.8rem;
   padding: 0rem 1rem;
   color: rgba(0, 0, 0, 0.3);
   background-color: #A1CCA5;
