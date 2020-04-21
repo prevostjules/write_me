@@ -5,6 +5,8 @@ footer {
   height: $nav-height;
   padding: 0px 50px;
   color: rgba(0,0,0,0.3);
+  display: flex;
+  background-color: $background-color-navbar;
 }
 .footer-links {
   display: flex;

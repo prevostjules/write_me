@@ -1,77 +1,39 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
 /*Define colors*/
 /*Define heights*/
-body footer {
-  display: flex;
-}
-
-body nav {
-  display: flex;
-}
-
-nav {
-  background-color: #A1CCA5;
-  z-index: 1000;
-}
-
 main {
   background-color: #C7CCB9;
-}
-
-form {
-  text-align: center;
-  padding-bottom: 2rem;
-}
-
-footer {
-  background-color: #A1CCA5;
-}
-
-.center {
-  text-align: center;
-}
-
-body .btn-dark {
-  color: white;
-  background-color: #415D43;
-  border-color: #415D43;
-}
-
-body .btn-dark:hover {
-  background-color: #111D13;
-  border-color: #111D13;
-  color: white;
 }
 
 nav {
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem;
+  padding: 1rem;
   position: fixed;
   height: 60px;
   width: 100%;
+  background-color: #A1CCA5;
+  z-index: 1000;
+  display: flex;
 }
 
-.sign-in a {
+nav a {
   transition: all 0.3s ease 0s;
   color: #415D43;
   background-color: 709775;
   vertical-align: middle;
 }
 
-.sign-in a:hover {
+nav a:hover {
   color: #111D13;
   text-decoration: none;
 }
 
-.sign-in .btn-dark {
-  color: white;
+.nav__logo {
+  font-size: 2rem;
 }
 
-.sign-in .btn-dark:hover {
-  color: white;
-}
-
-#sign-in-id {
+.nav__link {
   padding-right: 1rem;
 }
 
@@ -85,10 +47,54 @@ nav {
   justify-content: center;
 }
 
-.container {
+.banner h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.banner h2 {
+  font-size: 1.5rem;
+  padding-bottom: 0.6rem;
+}
+
+.prod-attr {
+  padding: 2rem 1.3rem;
+  text-align: center;
+}
+
+.prod-attr--red {
+  color: red;
+}
+
+.prod-attr p {
   text-align: justify;
-  padding-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.prod-attr__logo {
+  font-size: 4rem;
   padding-bottom: 2rem;
+}
+
+form {
+  padding: 2rem 3rem;
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+form h1 {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.form__info {
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+
+.form__info .btn {
+  margin-top: 1rem;
 }
 
 footer {
@@ -98,6 +104,8 @@ footer {
   height: 60px;
   padding: 0px 50px;
   color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  background-color: #A1CCA5;
 }
 
 .footer-links {
@@ -119,6 +127,19 @@ footer {
 
 footer .fa-heart {
   color: #D23333;
+}
+
+.btn {
+  color: white;
+  background-color: #415D43;
+  padding: 8px 24px;
+  border-radius: 50px;
+}
+
+.btn:hover {
+  background-color: #111D13;
+  border-color: #111D13;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

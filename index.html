@@ -6,25 +6,25 @@
 		<title>WriteMe</title>
 		<script src="https://kit.fontawesome.com/4420743a0c.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
 	
 	<header>
     
-		<nav class="sign-in">
-      <a href="#"><i class="fas fa-brain"></i></a>
+		<nav>
+      <a href="#"><i class="fas fa-brain nav__logo"></i></a>
       <div>
-				<a id="sign-in-id" href="#">Sign In</a>
-      	<a class="btn btn-dark" href="#" role="button">TEST FOR FREE</a>
+				<a class="nav__link" href="#">Sign In</a>
+      	<a class="btn" href="#" role="button">TEST FOR FREE</a>
       </div>
 		</nav>
 
 		<div class="banner">
-			<h1>WRITE ME</h1>
+			<h1>Write me</h1>
 	  	<h2>The best audio to text app !</h2>
-	  	<a class="btn btn-dark" href="#" role="button">TEST OUR AI POWER</a>
+	  	<a class="btn" href="#" role="button">TEST OUR AI POWER</a>
 	  </div>
+
 	</header>
 
 	<main>
@@ -32,16 +32,16 @@
 		<section class="container">
 			
 			<div class="row">
-        <div class="col-xs-12 col-sm-4">
-        	<div class="center"><i class="fas fa-brain"></i></div>
+        <div class="col-xs-12 col-sm-4 prod-attr">
+        	<i class="fas fa-brain prod-attr__logo"></i>
         	<p>Our ultra-developped AI will do all the work for you. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
-        <div class="col-xs-12 col-sm-4">
-        	<div class="center"><i class="fas fa-brain"></i></div>
+        <div class="col-xs-12 col-sm-4 prod-attr prod-attr--red">
+        	<i class="fas fa-brain prod-attr__logo"></i>
         	<p>Our ultra-developped AI will do all the work for you. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
-        <div class="col-xs-12 col-sm-4">
-        	<div class="center"><i class="fas fa-brain"></i></div>
+        <div class="col-xs-12 col-sm-4 prod-attr">
+        	<i class="fas fa-brain prod-attr__logo"></i>
         	<p>Our ultra-developped AI will do all the work for you. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
       </div>
@@ -50,21 +50,22 @@
 
 		<form action="submission.html" method="GET">
 			<h1>Tell us who you are :</h1>
-      <section class="name">
+      <section class="form__info">
         <label for="firstName">Enter your first name: </label>
         <input type="text" name="fname" id="firstName" minlength="3" maxlength="15" pattern="[a-zA-Z0-9]+" required>
       </section>
 
-      <section class="name">
+      <section class="form__info">
         <label for="familyName">Enter your family name: </label>
         <input type="text" name="fname" id="familyName" minlength="3" maxlength="15" pattern="[a-zA-Z0-9]+" required>
       </section>
 
-      <section class="name">
+      <section class="form__info">
         <label for="email">Enter email adress: </label>
         <input type="text" name="fname" id="email" minlength="3" maxlength="15" pattern="[a-zA-Z0-9]+" required><br>
-        <input type="submit" value="Submit">
+        <input class="btn" type="submit" value="Submit">
       </section>
+     </form>
 
 	</main>
 

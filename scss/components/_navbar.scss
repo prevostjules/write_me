@@ -1,25 +1,34 @@
 nav {
 	justify-content: space-between;
 	align-items: center;
-	padding: 0.5rem;
+	padding: 1rem;
 	position: fixed;
 	height: $nav-height;
 	width: 100%;
+	background-color: $background-color-navbar;
+	z-index: 1000;
+	display: flex;
 }
 
-.sign-in a {
+nav a {
 	transition: all 0.3s ease 0s;
 	color: $link-color;
 	background-color: 709775;
 	vertical-align: middle;
 }
 
-.sign-in a:hover {
+nav a:hover {
 	color: $link-color-hover;
 	text-decoration: none;
 }
 
-#sign-in-id {
+.nav__logo {
+	font-size: 2rem;
+}
+
+.nav__link {
 	padding-right: 1rem;
 }
+
+
 

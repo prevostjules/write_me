@@ -1,29 +1,4 @@
-body footer {
-	display: flex;
-}
-
-body nav {
-	display: flex;
-}
-
-nav {
-	background-color: $background-color-navbar;
-	z-index: 1000;
-}
-
 main {
 	background-color: $background-color-main;
 }
 
-form {
-	text-align: center;
-	padding-bottom: 2rem;
-}
-
-footer {
-	background-color: $background-color-navbar;
-}
-
-.center{
-	text-align: center;
-}

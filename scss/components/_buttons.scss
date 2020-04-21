@@ -1,10 +1,11 @@
-body .btn-dark {
+.btn {
 	color: $btn-text-color;
 	background-color: $link-color;
-	border-color: $link-color;
+  	padding: 8px 24px;
+  	border-radius: 50px;
 }
 
-body .btn-dark:hover {
+.btn:hover {
 	background-color: $link-color-hover;
 	border-color: $link-color-hover;
 	color: $btn-text-color;

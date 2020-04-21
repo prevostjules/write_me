@@ -1,8 +1,19 @@
-.container {
-	text-align: justify;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
+.prod-attr {
+	padding: 2rem 1.3rem;
+	text-align: center;
 }
 
+.prod-attr--red{
+	color: red;
+}
 
+.prod-attr p {
+	text-align: justify;
+	font-size: 1.2rem;
+}
+
+.prod-attr__logo {
+	font-size: 4rem;
+	padding-bottom: 2rem;
+}
 
