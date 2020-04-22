@@ -8,7 +8,7 @@
 	justify-content: center;
 		
 		h1 {
-			font-size: 2rem;
+			font-size: 5rem;
 			text-transform: uppercase;
 
 		}
@@ -34,4 +34,8 @@
 	border-right: 0.15em solid #ff79c6;
 	letter-spacing: 0.05em;
 	animation: blink 0.75s step-end infinite;
+}
+
+.height {
+		min-height: 6rem;
 }

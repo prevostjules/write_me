@@ -50,7 +50,7 @@ nav a {
   justify-content: center;
 }
 .banner h1 {
-  font-size: 2rem;
+  font-size: 5rem;
   text-transform: uppercase;
 }
 .banner h2 {
@@ -71,6 +71,10 @@ nav a {
   border-right: 0.15em solid #ff79c6;
   letter-spacing: 0.05em;
   animation: blink 0.75s step-end infinite;
+}
+
+.height {
+  min-height: 6rem;
 }
 
 footer {
