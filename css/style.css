@@ -56,7 +56,26 @@ nav a {
 .banner h2 {
   font-size: 1.5rem;
   padding-bottom: 0.6rem;
-  text-shadow: 0.1rem 0.1rem #afada7;
+  text-shadow: 0.1rem 0.1rem #484742;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3.8rem;
+  padding: 0rem 1rem;
+  color: rgba(0, 0, 0, 0.3);
+  background-color: #A1CCA5;
+}
+
+.footer__links {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.footer__links a {
+  padding-right: 0.5rem;
 }
 
 .prod-attr {
@@ -92,25 +111,6 @@ form h1 {
 }
 .form__info .btn {
   margin-top: 1rem;
-}
-
-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 3.8rem;
-  padding: 0rem 1rem;
-  color: rgba(0, 0, 0, 0.3);
-  background-color: #A1CCA5;
-}
-
-.footer__links {
-  display: flex;
-  align-items: center;
-  font-size: 1.2rem;
-}
-.footer__links a {
-  padding-right: 0.5rem;
 }
 
 .btn {

@@ -1,9 +1,10 @@
 @import "./utils/_variables";
-@import "./_base";
-@import "./components/_navbar";
-@import "./components/_banner";
+@import "./utils/_mixins";
+@import "./base/_base";
+@import "./layouts/_navbar";
+@import "./layouts/_banner";
+@import "./layouts/_footer";
 @import "./components/_card";
 @import "./components/_form";
-@import "./components/_footer";
 @import "./components/_buttons";
 

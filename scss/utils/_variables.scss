@@ -21,9 +21,7 @@ $bg-btn--secondary: $color-p--secondary;
 $height-nav : 3.8rem;
 
 
-/*Define mixins*/
 
-$shadow-subheading-size: 0.10rem;
-@mixin shadow-subheading ($size: $shadow-subheading-size, $color: $bg-banner) {
-	text-shadow: $size $size lighten($color, 20%);
-}
+
+
+
