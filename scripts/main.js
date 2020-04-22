@@ -1,7 +1,5 @@
 let title = document.getElementById('autotext');
-title.textContent = 'Write Me'; /*trouver comment récupérer le texte dans le html*/
-
-let text = title.textContent;
+let text = title.innerHTML;
 
 let index = 0;
 
