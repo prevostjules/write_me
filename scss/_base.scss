@@ -1,14 +1,13 @@
 main {
-	background-color: $background-color-main;
+	background-color: $bg-main;
 }
 
 a {
 	transition: all 0.3s ease 0s;
-	color: $link-color;
-	background-color: 709775;
+	color: $color-link;
 		
 		&:hover {
-			color: $link-color-hover;
+			color: $color-link--hover;
 			text-decoration: none;
 		}
 }

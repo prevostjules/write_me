@@ -2,10 +2,10 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: $nav-height;
+  height: $height-nav;
   padding: 0rem 1rem;
   color: rgba(0,0,0,0.3);
-  background-color: $background-color-navbar;
+  background-color: $bg-footer;
 }
 
 .footer__links {

@@ -8,7 +8,5 @@
   },
   "author": "Jules Prévost",
   "license": "Jules Prévost",
-  "dependencies": {
-    "normalize.css": "^8.0.1"
-  }
+  "dependencies": {}
 }

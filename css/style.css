@@ -1,5 +1,7 @@
-@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
-/*Define colors*/
+/*Define colors
+bg = background
+The name of a variable is created as property-element--number.
+For the color (property) of a link (element), variable is : color-link*/
 /*Define heights*/
 main {
   background-color: #C7CCB9;
@@ -8,7 +10,6 @@ main {
 a {
   transition: all 0.3s ease 0s;
   color: #415D43;
-  background-color: 709775;
 }
 a:hover {
   color: #111D13;

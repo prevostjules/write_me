@@ -1,10 +1,21 @@
-/*Define colors*/
-$link-color: #415D43;
-$link-color-hover: #111D13;
-$btn-text-color: white; 
-$background-color-banner: #7E7B72;
-$background-color-navbar: #A1CCA5;
-$background-color-main: #C7CCB9;
+/*Define colors
+bg = background
+The name of a variable is created as property-element--number.
+For the color (property) of a link (element), variable is : color-link*/
+
+$color-link: #415D43;
+$color-link--hover: #111D13;
+
+$bg-main: #C7CCB9;
+$bg-nav: #A1CCA5;
+$bg-banner: #7E7B72;
+$bg-footer: $bg-nav; 
+
+$color-p--secondary: red;
+
+$color-btn: white;
+$bg-btn: $color-link;
+$bg-btn--secondary: $color-p--secondary;
 
 /*Define heights*/
-$nav-height : 3.8rem;
+$height-nav : 3.8rem;
