@@ -10,6 +10,7 @@
 		h1 {
 			font-size: 2rem;
 			text-transform: uppercase;
+
 		}
 
 		h2 {
@@ -19,3 +20,18 @@
 		}
 }
 
+@keyframes blink {
+	from, 
+	to {
+		border-color: transparent;
+	}
+	50% {
+		border-color: #ff79c6;
+	}
+}
+
+#autotext {
+	border-right: 0.15em solid #ff79c6;
+	letter-spacing: 0.05em;
+	animation: blink 0.75s step-end infinite;
+}
