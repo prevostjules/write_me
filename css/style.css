@@ -3,6 +3,7 @@ bg = background
 The name of a variable is created as property-element--number.
 For the color (property) of a link (element), variable is : color-link*/
 /*Define heights*/
+/*Define mixins*/
 main {
   background-color: #C7CCB9;
 }
@@ -55,6 +56,7 @@ nav a {
 .banner h2 {
   font-size: 1.5rem;
   padding-bottom: 0.6rem;
+  text-shadow: 0.1rem 0.1rem #afada7;
 }
 
 .prod-attr {
