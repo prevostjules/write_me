@@ -9,3 +9,34 @@ $shadow-subheading-size: 0.10rem;
 	} 
 	text-shadow: $size $size $color;
 }
+
+@mixin autotext ($ft-size: $ft-size-h1, $clr-bdr: $clr-bdr) {
+	border-right: 0.15em solid;
+	letter-spacing: 0.05em;
+	animation: blink 0.75s step-end infinite;
+	min-height: add-height($ft-size);
+
+	@keyframes blink {
+	from, 
+	to {
+		border-color: transparent;
+	}
+	50% {
+		border-color: $clr-bdr;
+	}
+}
+} /*ne pas oublier d'ajouter dans le HTML 
+la classe "autotext" pour activer le javascript*/
+
+
+/*Define functions*/
+
+@function add-height ($ft-size) {
+	$ft-size-per-ten: $ft-size*10;
+	$ft-size-divided-per-100: $ft-size-per-ten/100;
+	$new-height: $ft-size-divided-per-100 + $ft-size;
+	@return $new-height;
+}
+
+
+

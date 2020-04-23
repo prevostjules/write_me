@@ -3,7 +3,12 @@ bg = background
 The name of a variable is created as property-element--number.
 For the color (property) of a link (element), variable is : color-link*/
 /*Define heights*/
+/*Define font-size*/
 /*Define mixins*/
+/*ne pas oublier d'ajouter dans le HTML 
+la classe "autotext" pour activer le javascript*/
+/*Define functions*/
+/*Elements for autotext Animation*/
 main {
   background-color: #C7CCB9;
 }
@@ -15,6 +20,10 @@ a {
 a:hover {
   color: #111D13;
   text-decoration: none;
+}
+
+h1 {
+  font-size: 5rem;
 }
 
 nav {
@@ -50,31 +59,24 @@ nav a {
   justify-content: center;
 }
 .banner h1 {
-  font-size: 5rem;
   text-transform: uppercase;
+  border-right: 0.15em solid;
+  letter-spacing: 0.05em;
+  animation: blink 0.75s step-end infinite;
+  min-height: 5.5rem;
 }
-.banner h2 {
-  font-size: 1.5rem;
-  padding-bottom: 0.6rem;
-  text-shadow: 0.1rem 0.1rem #484742;
-}
-
 @keyframes blink {
   from, to {
     border-color: transparent;
   }
   50% {
-    border-color: #ff79c6;
+    border-color: white;
   }
 }
-#autotext {
-  border-right: 0.15em solid #ff79c6;
-  letter-spacing: 0.05em;
-  animation: blink 0.75s step-end infinite;
-}
-
-.height {
-  min-height: 6.5rem;
+.banner h2 {
+  font-size: 1.5rem;
+  padding-bottom: 0.6rem;
+  text-shadow: 0.1rem 0.1rem #484742;
 }
 
 footer {
@@ -129,6 +131,20 @@ form h1 {
 }
 .form__info .btn {
   margin-top: 1rem;
+}
+.form__info .autotext {
+  border-right: 0.15em solid;
+  letter-spacing: 0.05em;
+  animation: blink 0.75s step-end infinite;
+  min-height: 1.32rem;
+}
+@keyframes blink {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: red;
+  }
 }
 
 .btn {
