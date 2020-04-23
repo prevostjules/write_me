@@ -1,5 +1,4 @@
 /*Autotext animation*/
-
 let title = document.querySelectorAll('.autotext');
 let text = [].slice.call(title);
 
@@ -17,9 +16,9 @@ const play = () => {
 
   index++;
 
-  if (index > text.length) {
+  /*if (index > text.length) {
     index = 0;
-  }
+  }*/ //Pour une boucle infinie//
 
   clearInterval(timer);
   timer = setInterval(play, randomSpeed(100,500));

@@ -15,11 +15,8 @@ form {
 	font-size: $ft-size-frm;
 	padding-bottom: 1rem;
 
+
 		.btn {
 			margin-top: 1rem;		
-		}
-
-		.autotext {
-			@include autotext($ft-size-frm, $clr-bdr-2);
 		}
 }

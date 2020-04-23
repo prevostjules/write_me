@@ -9,7 +9,7 @@
 		
 		h1 {
 			text-transform: uppercase;
-			@include autotext();
+			@include autotext(blink-clr-brd, $ft-size-h1);
 		}
 
 		h2 {

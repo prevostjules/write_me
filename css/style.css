@@ -9,6 +9,22 @@ For the color (property) of a link (element), variable is : color-link*/
 la classe "autotext" pour activer le javascript*/
 /*Define functions*/
 /*Elements for autotext Animation*/
+@keyframes blink-clr-brd {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
+@keyframes blink-clr-brd-2 {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: red;
+  }
+}
 main {
   background-color: #C7CCB9;
 }
@@ -62,16 +78,8 @@ nav a {
   text-transform: uppercase;
   border-right: 0.15em solid;
   letter-spacing: 0.05em;
-  animation: blink 0.75s step-end infinite;
+  animation: blink-clr-brd 0.75s step-end infinite;
   min-height: 5.5rem;
-}
-@keyframes blink {
-  from, to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: white;
-  }
 }
 .banner h2 {
   font-size: 1.5rem;
@@ -131,20 +139,6 @@ form h1 {
 }
 .form__info .btn {
   margin-top: 1rem;
-}
-.form__info .autotext {
-  border-right: 0.15em solid;
-  letter-spacing: 0.05em;
-  animation: blink 0.75s step-end infinite;
-  min-height: 1.32rem;
-}
-@keyframes blink {
-  from, to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: red;
-  }
 }
 
 .btn {
