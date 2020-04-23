@@ -8,11 +8,13 @@ form {
 			font-size: 2rem;
 			padding-bottom: 2rem;			
 		}
+
 }
 
 .form__info {
-	font-size: 1.2rem;
+	font-size: $ft-size-frm;
 	padding-bottom: 1rem;
+
 
 		.btn {
 			margin-top: 1rem;		

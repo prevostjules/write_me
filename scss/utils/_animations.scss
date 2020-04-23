@@ -1,0 +1,19 @@
+/*Elements for autotext Animation*/
+@mixin blinker($name, $clr) {
+  @keyframes #{$name} {
+    from, 
+	to {
+		border-color: transparent;
+	}
+	50% {
+		border-color: $clr;
+	}
+  }
+}
+
+@include blinker(blink-clr-brd, $clr-brd);
+@include blinker(blink-clr-brd-2, $clr-brd-2);
+
+
+
+
