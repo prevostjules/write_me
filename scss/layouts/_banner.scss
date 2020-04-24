@@ -9,7 +9,10 @@
 		
 		h1 {
 			text-transform: uppercase;
-			@include autotext(blink-clr-brd, $ft-size-h1);
+			@include autotext(blink-clr-brd, map-get($font-size,heading));
+			@include mobile-only{
+				@include autotext(blink-clr-brd, map-get($font-size-xs,heading));
+			}
 		}
 
 		h2 {

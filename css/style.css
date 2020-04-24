@@ -3,7 +3,9 @@ bg = background
 The name of a variable is created as property-element--number.
 For the color (property) of a link (element), variable is : color-link*/
 /*Define heights*/
+/*Other variables*/
 /*Define font-size*/
+/*Define maps*/
 /*Define mixins*/
 /*ne pas oublier d'ajouter dans le HTML 
 la classe "autotext" pour activer le javascript*/
@@ -40,6 +42,11 @@ a:hover {
 
 h1 {
   font-size: 5rem;
+}
+@media screen and (max-width: 599px) {
+  h1 {
+    font-size: 4.3rem;
+  }
 }
 
 nav {
@@ -80,6 +87,14 @@ nav a {
   letter-spacing: 0.05em;
   animation: blink-clr-brd 0.75s step-end infinite;
   min-height: 5.5rem;
+}
+@media screen and (max-width: 599px) {
+  .banner h1 {
+    border-right: 0.15em solid;
+    letter-spacing: 0.05em;
+    animation: blink-clr-brd 0.75s step-end infinite;
+    min-height: 4.73rem;
+  }
 }
 .banner h2 {
   font-size: 1.5rem;

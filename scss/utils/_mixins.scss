@@ -1,6 +1,6 @@
 /*Define mixins*/
 
-$shadow-subheading-size: 0.10rem;
+
 @mixin shadow-subheading ($color: $bg-banner, $size: $shadow-subheading-size) {
 	@if (lightness($color)<25%) {
 		$color: lighten($color, 10%);
@@ -18,22 +18,23 @@ $shadow-subheading-size: 0.10rem;
 }/*ne pas oublier d'ajouter dans le HTML 
 la classe "autotext" pour activer le javascript*/
 
-$form-input-palette: (
-	required: (
-		bg:$clr-bg-fr,
-		outline: $clr-outline-fr,
-		),
-	optional: (
-		bg:$clr-bg-fr,
-		)
-	);
 
-@mixin form-input-palette($state) {
-	$palette: map-get($form-input-palette, $state);
-	background-color: map-get($palette, bg);
-	outline-color: map-get($palette, outline);
-	border: none;
+
+@mixin form-input-palette($palettes) {
+	@each $state, $palette in $palettes {
+		&:#{$state} {
+			background-color: map-get($palette, bg);
+			outline-color: map-get($palette, outline);
+			border: none;
+		}
+	}	
 };
+
+@mixin mobile-only {
+	@media screen and (max-width: map-get($breakpoints, mobile)){
+		@content;
+	}
+}
 
 /*Define functions*/
 

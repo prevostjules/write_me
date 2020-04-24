@@ -1,0 +1,233 @@
+/*Define colors
+bg = background
+The name of a variable is created as property-element--number.
+For the color (property) of a link (element), variable is : color-link*/
+/*Define heights*/
+/*Other variables*/
+/*Define font-size*/
+/*Define maps*/
+/*Define mixins*/
+/*ne pas oublier d'ajouter dans le HTML 
+la classe "autotext" pour activer le javascript*/
+/*Define functions*/
+/*Elements for autotext Animation*/
+@-webkit-keyframes blink-clr-brd {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
+@keyframes blink-clr-brd {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
+@-webkit-keyframes blink-clr-brd-2 {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: red;
+  }
+}
+@keyframes blink-clr-brd-2 {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: red;
+  }
+}
+main {
+  background-color: #C7CCB9;
+}
+
+a {
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  color: #415D43;
+}
+a:hover {
+  color: #111D13;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 5rem;
+}
+@media screen and (max-width: 599px) {
+  h1 {
+    font-size: 4.3rem;
+  }
+}
+
+nav {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+  position: fixed;
+  height: 3.8rem;
+  width: 100%;
+  background-color: #A1CCA5;
+  z-index: 1000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+nav a {
+  vertical-align: middle;
+}
+
+.nav__logo {
+  font-size: 2rem;
+}
+
+.nav__link {
+  padding-right: 1rem;
+}
+
+.banner {
+  padding-top: 3.8rem;
+  background-color: #7E7B72;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.banner h1 {
+  text-transform: uppercase;
+  border-right: 0.15em solid;
+  letter-spacing: 0.05em;
+  -webkit-animation: blink-clr-brd 0.75s step-end infinite;
+          animation: blink-clr-brd 0.75s step-end infinite;
+  min-height: 5.5rem;
+}
+@media screen and (max-width: 599px) {
+  .banner h1 {
+    border-right: 0.15em solid;
+    letter-spacing: 0.05em;
+    -webkit-animation: blink-clr-brd 0.75s step-end infinite;
+            animation: blink-clr-brd 0.75s step-end infinite;
+    min-height: 4.73rem;
+  }
+}
+.banner h2 {
+  font-size: 1.5rem;
+  padding-bottom: 0.6rem;
+  text-shadow: 0.1rem 0.1rem #484742;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 3.8rem;
+  padding: 0rem 1rem;
+  color: rgba(0, 0, 0, 0.3);
+  background-color: #A1CCA5;
+}
+
+.footer__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.2rem;
+}
+.footer__links a {
+  padding-right: 0.5rem;
+}
+
+.prod-attr {
+  padding: 2rem 1.3rem;
+  text-align: center;
+}
+.prod-attr p {
+  text-align: justify;
+  font-size: 1.2rem;
+}
+.prod-attr__logo {
+  font-size: 4rem;
+  padding-bottom: 2rem;
+}
+.prod-attr--red {
+  color: red;
+}
+
+form {
+  padding: 2rem 3rem;
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
+form h1 {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.form__info {
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+.form__info input:required {
+  background-color: white;
+  outline-color: red;
+  border: none;
+}
+.form__info input:optional {
+  background-color: white;
+  border: none;
+}
+.form__info .btn {
+  margin-top: 1rem;
+}
+
+.btn {
+  color: white;
+  background-color: #415D43;
+  padding: 0.4rem 1.8rem;
+  border-radius: 50px;
+}
+.btn--red {
+  background-color: red;
+}
+.btn--big {
+  padding: 1rem 4rem;
+  font-size: 1.2rem;
+  max-width: 80%;
+}
+.btn:hover {
+  background-color: #111D13;
+  border-color: #111D13;
+  color: white;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3Njc3MvdXRpbHMvX3ZhcmlhYmxlcy5zY3NzIiwiLi4vLi4vc2Nzcy91dGlscy9fbWl4aW5zLnNjc3MiLCIuLi8uLi9zY3NzL3V0aWxzL19hbmltYXRpb25zLnNjc3MiLCIuLi9zdHlsZS5jc3MiLCIuLi8uLi9zY3NzL2Jhc2UvX2Jhc2Uuc2NzcyIsIi4uLy4uL3Njc3MvbGF5b3V0cy9fbmF2YmFyLnNjc3MiLCIuLi8uLi9zY3NzL2xheW91dHMvX2Jhbm5lci5zY3NzIiwiLi4vLi4vc2Nzcy9sYXlvdXRzL19mb290ZXIuc2NzcyIsIi4uLy4uL3Njc3MvY29tcG9uZW50cy9fY2FyZC5zY3NzIiwiLi4vLi4vc2Nzcy9jb21wb25lbnRzL19mb3JtLnNjc3MiLCIuLi8uLi9zY3NzL2NvbXBvbmVudHMvX2J1dHRvbnMuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7O3VFQUFBO0FBeUJBLGlCQUFBO0FBR0Esa0JBQUE7QUFJQSxtQkFBQTtBQU1BLGNBQUE7QUN0Q0EsZ0JBQUE7QUFpQkM7Z0RBQUE7QUFxQkQsbUJBQUE7QUN0Q0Esa0NBQUE7QUFFRTtFQUNFO0lBRUYseUJBQUE7RUNXQTtFRFREO0lBQ0MsbUJBQUE7RUNXQTtBQUNGO0FEbEJFO0VBQ0U7SUFFRix5QkFBQTtFQ1dBO0VEVEQ7SUFDQyxtQkFBQTtFQ1dBO0FBQ0Y7QURsQkU7RUFDRTtJQUVGLHlCQUFBO0VDbUJBO0VEakJEO0lBQ0MsaUJGQ1U7RUdrQlY7QUFDRjtBRDFCRTtFQUNFO0lBRUYseUJBQUE7RUNtQkE7RURqQkQ7SUFDQyxpQkZDVTtFR2tCVjtBQUNGO0FDNUJBO0VBQ0MseUJKVVM7QUdvQlY7O0FDM0JBO0VBQ0Msb0NBQUE7RUFBQSwrQkFBQTtFQUFBLDRCQUFBO0VBQ0EsY0pEWTtBRytCYjtBQzVCRTtFQUNDLGNKSGlCO0VJSWpCLHFCQUFBO0FEOEJIOztBQzFCQTtFQUNFLGVBQUE7QUQ2QkY7QUZYQztFR25CRDtJQUdHLGlCQUFBO0VEK0JEO0FBQ0Y7O0FFakRBO0VBQ0MseUJBQUE7TUFBQSxzQkFBQTtVQUFBLDhCQUFBO0VBQ0EseUJBQUE7TUFBQSxzQkFBQTtVQUFBLG1CQUFBO0VBQ0EsYUFBQTtFQUNBLGVBQUE7RUFDQSxjTHFCYTtFS3BCYixXQUFBO0VBQ0EseUJMS1E7RUtKUixhQUFBO0VBQ0Esb0JBQUE7RUFBQSxvQkFBQTtFQUFBLGFBQUE7QUZvREQ7QUVsREU7RUFDQyxzQkFBQTtBRm9ESDs7QUUvQ0E7RUFDQyxlQUFBO0FGa0REOztBRS9DQTtFQUNDLG1CQUFBO0FGa0REOztBR3hFQTtFQUNDLG1CTnlCYTtFTXhCYix5Qk5XVztFTVZYLGFBQUE7RUFDQSxvQkFBQTtFQUFBLG9CQUFBO0VBQUEsYUFBQTtFQUNBLHlCQUFBO01BQUEsc0JBQUE7VUFBQSxtQkFBQTtFQUNBLDRCQUFBO0VBQUEsNkJBQUE7TUFBQSwwQkFBQTtVQUFBLHNCQUFBO0VBQ0Esd0JBQUE7TUFBQSxxQkFBQTtVQUFBLHVCQUFBO0FIMkVEO0FHekVFO0VBQ0MseUJBQUE7RUxHRiwwQkFBQTtFQUNBLHNCQUFBO0VBQ0Esd0RBQUE7VUFBQSxnREFBQTtFQUNBLGtCQUFBO0FFeUVEO0FGeERDO0VLeEJDO0lMSUQsMEJBQUE7SUFDQSxzQkFBQTtJQUNBLHdEQUFBO1lBQUEsZ0RBQUE7SUFDQSxtQkFBQTtFRWdGQztBQUNGO0FHaEZFO0VBQ0MsaUJBQUE7RUFDQSxzQkFBQTtFTFZGLGtDQUFBO0FFNkZEOztBSXRHQTtFQUNFLG9CQUFBO0VBQUEsb0JBQUE7RUFBQSxhQUFBO0VBQ0EseUJBQUE7TUFBQSxzQkFBQTtVQUFBLG1CQUFBO0VBQ0EseUJBQUE7TUFBQSxzQkFBQTtVQUFBLDhCQUFBO0VBQ0EsY1BzQlk7RU9yQlosa0JBQUE7RUFDQSx5QkFBQTtFQUNBLHlCUEtPO0FHb0dUOztBSXRHQTtFQUNFLG9CQUFBO0VBQUEsb0JBQUE7RUFBQSxhQUFBO0VBQ0EseUJBQUE7TUFBQSxzQkFBQTtVQUFBLG1CQUFBO0VBQ0EsaUJBQUE7QUp5R0Y7QUl4R0k7RUFDRSxxQkFBQTtBSjBHTjs7QUt6SEE7RUFDQyxvQkFBQTtFQUNBLGtCQUFBO0FMNEhEO0FLM0hFO0VBQ0MsbUJBQUE7RUFDQSxpQkFBQTtBTDZISDtBSzFIRTtFQUNDLGVBQUE7RUFDQSxvQkFBQTtBTDRISDtBS3pIRTtFQUNDLFVSRWtCO0FHeUhyQjs7QU16SUE7RUFDQyxrQkFBQTtFQUNBLGdCQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0FONElEO0FNMUlFO0VBQ0MsZUFBQTtFQUNBLG9CQUFBO0FONElIOztBTXRJQTtFQUNDLGlCQUFBO0VBQ0Esb0JBQUE7QU55SUQ7QUZqSUU7RUFDQyx1QkFBQTtFQUNBLGtCQUFBO0VBQ0EsWUFBQTtBRW1JSDtBRnRJRTtFQUNDLHVCQUFBO0VBRUEsWUFBQTtBRXVJSDtBTTdJRTtFQUNDLGdCQUFBO0FOK0lIOztBT3JLQTtFQUNDLFlWaUJXO0VVaEJYLHlCVkdZO0VVRlgsc0JBQUE7RUFDQSxtQkFBQTtBUHdLRjtBT3RLRztFQUNDLHFCVlNpQjtBRytKckI7QU9yS0c7RUFDRSxrQkFBQTtFQUNBLGlCQUFBO0VBQ0EsY0FBQTtBUHVLTDtBT3BLRztFQUNBLHlCVlhpQjtFVVlqQixxQlZaaUI7RVVhakIsWVZEUztBR3VLWiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */

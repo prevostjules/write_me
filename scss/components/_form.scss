@@ -5,7 +5,7 @@ form {
 	text-align: center;
 
 		h1 {
-			font-size: 2rem;
+			font-size: map-get($font-size, subheading);
 			padding-bottom: 2rem;			
 		}
 
@@ -13,16 +13,11 @@ form {
 			
 
 .form__info {
-	font-size: $ft-size-frm;
+	font-size: map-get($font-size, para);
 	padding-bottom: 1rem;
 
 	& input {
-		&:required {
-			@include form-input-palette(required);
-		}
-		&:optional {
-			@include form-input-palette(optional);
-		}
+		@include form-input-palette($form-input-palette);
 	}
 		.btn {
 			margin-top: 1rem;		

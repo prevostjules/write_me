@@ -26,12 +26,31 @@ $clr-outline-fr: red;
 /*Define heights*/
 $height-nav : 3.8rem;
 
+/*Other variables*/
+
+$shadow-subheading-size: 0.10rem;
+
 /*Define font-size*/
 
-$ft-size-h1: 5rem;
-$ft-size-frm: 1.2rem;
+$font-size: (heading:5rem, subheading:2rem, para:1.2rem);
+$font-size-xs: (heading:4.3rem, para:2rem);
 
 
+/*Define maps*/
+
+$form-input-palette: (
+	required: (
+		bg:$clr-bg-fr,
+		outline: $clr-outline-fr,
+		),
+	optional: (
+		bg:$clr-bg-fr,
+		)
+	);
+
+$breakpoints: (
+	mobile: 599px
+);
 
 
 

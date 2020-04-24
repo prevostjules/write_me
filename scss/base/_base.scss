@@ -13,7 +13,10 @@ a {
 }
 
 h1 {
-  font-size: $ft-size-h1;
+  font-size: map-get($font-size, heading);
+  	@include mobile-only{
+			font-size: map-get($font-size-xs, heading);
+		}
 }
 
 
