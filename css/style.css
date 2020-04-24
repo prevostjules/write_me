@@ -137,6 +137,15 @@ form h1 {
   font-size: 1.2rem;
   padding-bottom: 1rem;
 }
+.form__info input:required {
+  background-color: white;
+  outline-color: red;
+  border: none;
+}
+.form__info input:optional {
+  background-color: white;
+  border: none;
+}
 .form__info .btn {
   margin-top: 1rem;
 }

@@ -15,10 +15,25 @@ $shadow-subheading-size: 0.10rem;
 	letter-spacing: 0.05em;
 	animation: $blinker-name 0.75s step-end infinite;
 	min-height: add-height($ft-size);
-}
- /*ne pas oublier d'ajouter dans le HTML 
+}/*ne pas oublier d'ajouter dans le HTML 
 la classe "autotext" pour activer le javascript*/
 
+$form-input-palette: (
+	required: (
+		bg:$clr-bg-fr,
+		outline: $clr-outline-fr,
+		),
+	optional: (
+		bg:$clr-bg-fr,
+		)
+	);
+
+@mixin form-input-palette($state) {
+	$palette: map-get($form-input-palette, $state);
+	background-color: map-get($palette, bg);
+	outline-color: map-get($palette, outline);
+	border: none;
+};
 
 /*Define functions*/
 

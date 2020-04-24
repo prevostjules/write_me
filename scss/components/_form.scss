@@ -10,13 +10,23 @@ form {
 		}
 
 }
+			
 
 .form__info {
 	font-size: $ft-size-frm;
 	padding-bottom: 1rem;
 
-
+	& input {
+		&:required {
+			@include form-input-palette(required);
+		}
+		&:optional {
+			@include form-input-palette(optional);
+		}
+	}
 		.btn {
 			margin-top: 1rem;		
 		}
 }
+
+
